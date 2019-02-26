@@ -10,7 +10,7 @@ This website is to help brazilian people whom are seeking for network to share t
  sass/
 `– main.css              # Main CSS file
 
-# Sass Based Project - Style Architecture
+# Sass Based Project - Style Architecture `The 7-1 Pattern`
 
  sass/
 |
