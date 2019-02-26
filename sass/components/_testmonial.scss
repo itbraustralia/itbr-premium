@@ -1,0 +1,47 @@
+.testmonial-item {
+    justify-items: center;
+    grid-row-gap: var(--gap);
+    max-width: 400px;
+
+    &.testmonial-one {
+        grid-area: test-one;
+        margin-top: calc(-5 * var(--gap));
+    }
+
+    &.testmonial-two {
+        grid-area: test-two;
+    }
+
+    &.testmonial-three {
+        grid-area: test-three;
+    }
+
+    .testmonial {
+        position: relative;
+
+        &::before {
+            content: url('../images/left-quote-icon.png');
+            background-size: 10px;
+            position: absolute;
+            left: -5%;
+            top: -5%;
+        }
+        &::after {
+            content: url('../images/right-quote-icon.png');
+            position: absolute;
+            right: -5%;
+            top: -5%;
+        }   
+    }
+
+    .client-details {
+        justify-items: center;
+
+        h4 {
+            margin-bottom: 0;
+        }
+    }
+
+    
+
+}

@@ -1,0 +1,54 @@
+footer {
+
+    background: linear-gradient(to left bottom, var(--color-black) 85%, var(--color-dark-grey) 15%);
+
+    padding-top: calc(var(--gap) * 7);
+
+    #wrapper {
+        align-items: start;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: calc(var(--gap) * 2);
+
+        .msg {
+            justify-self: end;
+        }
+
+        .contact {
+            justify-self: start;
+            display: grid;
+            
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        p {
+            max-width: 400px;
+            align-self: end;
+        }
+
+        form {
+            width: 440px;
+            max-width: 440px;
+            grid-gap: var(--gap);
+
+            input[type=text], input[type=email], textarea {
+                background-color: #464646;
+                border: none;
+                color: #efefef;
+                padding: calc(var(--gap) / 3);
+            }
+
+            .btn {
+
+                svg {
+                    color: var(--color-secondary);
+                }
+
+            }
+
+        }
+
+    }
+}
