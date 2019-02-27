@@ -1,0 +1,50 @@
+:root {
+
+  /*! = gap
+  -------------------------------------------------------------- */
+  --gap: 1.25rem;
+  --header-height: 130px;
+
+
+  /*! = typography
+  -------------------------------------------------------------- */
+  --font-light:     200;
+  --font-regular:   400;
+  --font-bold:      700;
+  --font-black:     900;
+  --font-primary:   'Space Mono', monospace;
+  --font-secondary: 'Josefin Sans', sans-serif;
+
+  /*! = sizes
+  -------------------------------------------------------------- */
+  --font-size-x-small:	  12px;
+  --font-size-small:	    14px;
+  --font-size-regular:	  16px;
+  --font-size-large:	    24px;
+  --font-size-x-large:	  32px;
+  --font-size-xx-large:	  48px;
+  --font-size-xxx-large:	64px;
+  --font-size-xxxx-large:	96px;
+
+
+  /*! = theme color
+  -------------------------------------------------------------- */
+  --color-red:          rgba(231,29,54,1);
+  --color-yellow:       rgba(249,190,58,1);
+  --color-primary:      rgb(39, 47, 127, 1);
+  --color-secondary:    rgba(136, 217, 244, 1);
+  --color-light-purple: rgba(81, 92, 206, 1);
+  --color-dark-blue:    rgba(99, 199, 233, 1);
+  --color-white:        rgba(255,255,255,1);
+  --color-black:        rgba(0,0,0,1);
+  --color-dark-grey:    rgba(29,29,29,1);
+
+  /*! = break points
+  -------------------------------------------------------------- */
+  --app-width: minmax(auto, 6rem);
+
+  /*! = section height
+  -------------------------------------------------------------- */
+  --section-height: 700px;
+
+}
