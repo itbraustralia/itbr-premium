@@ -1,3 +1,9 @@
 section, footer {
     min-height: var(--section-height);
 }
+
+@media (max-width: 768px) {
+    section, footer {
+        min-height: calc( 1.2 * var(--section-height));
+    }
+}
